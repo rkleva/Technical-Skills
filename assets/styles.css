@@ -141,7 +141,14 @@ color: black;
     font-family: 'Poppins';
     font-weight: 700;
     color: var(--primary-color);
+    transition: transform 0.2s ease-out;
+	cursor: pointer;
 }
+
+.buttons_buy-now:hover{
+    transform: scale(1.1) ;
+}
+
 
 .buttons_read-more{
     background-color: var(--primary-color);
@@ -149,7 +156,13 @@ color: black;
     font-weight: 700;
     font-family: 'Poppins';
     color: white;
+    transition: transform 0.2s ease-out;
+    cursor: pointer;
 
+}
+
+.buttons_read-more:hover{
+    transform: scale(1.1);
 }
 
 @media screen and (max-width:1400px) {
